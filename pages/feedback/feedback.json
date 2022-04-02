@@ -1,0 +1,7 @@
+{
+  "component": true,
+  "usingComponents": {
+    "DescriptionText": "/components/Text/DescriptionText",
+    "FullNavBar": "/components/FullNavBar/FullNavBar"
+  }
+}

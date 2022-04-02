@@ -1,0 +1,26 @@
+<!--index.wxml-->
+<PlainNavBar title="首页"></PlainNavBar>
+<van-notice-bar
+  color="#ff6e41"
+  background="#fff"
+  left-icon="info-o"
+  text="技术是开发它的人的共同灵魂。"
+/>
+<van-row>
+  <van-col span="24">xxx，你好！</van-col>
+</van-row>
+<van-row>
+  <van-col span="24">xxx，你好！</van-col>
+</van-row>
+<van-row>
+  <van-col span="24">你已参加x项志愿活动</van-col>
+</van-row>
+<van-row>
+  <van-col span="24">你已拥有x小时志愿时长</van-col>
+</van-row>
+<van-divider contentPosition="center" textColor="#ff6e41">来自</van-divider>
+<van-row>
+  计算机学院
+</van-row>
+
+

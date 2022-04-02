@@ -1,0 +1,34 @@
+<!--pages/profile/profile.wxml-->
+<PlainNavBar title="{{title}}"></PlainNavBar>
+
+<van-cell-group inset>
+  <van-cell is-link>
+    <view slot="title">
+      <van-row>
+        <van-col span="8">
+          <van-image
+            round
+            width="10rem"
+            height="10rem"
+            src="/assets/logo/activity.png"
+          />
+        </van-col>
+        <van-col span="8">
+          <div class="label" >志愿活动</div>
+          <div class="cdata">{{activityNum}}</div>
+        </van-col>
+        <van-col span="8">
+          <div class="label">志愿时长</div>
+          <div class="cdata">{{activityHour}}</div>
+        </van-col>
+      </van-row>
+    </view>
+  </van-cell>
+  <van-cell 
+  wx:for="{{menuList}}" 
+  title="{{item.title}}" 
+  link-type="navigateTo" 
+  url="{{item.url}}" 
+  is-link />
+</van-cell-group>
+

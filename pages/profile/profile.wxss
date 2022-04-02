@@ -1,0 +1,4 @@
+/* pages/profile/profile.wxss */
+.profile-card{
+  background-color: #ff9e41;
+}

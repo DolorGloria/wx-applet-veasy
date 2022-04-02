@@ -1,0 +1,9 @@
+<!--pages/myrecords/myrecords.wxml-->
+<FullNavBar title="{{title}}"></FullNavBar>
+<van-cell-group inset>
+  <van-cell>
+    <view slot="title" id="test">test
+      <ec-canvas id="mychart-dom-radar" canvas-id='mychart-line' ec="{{ec}}"></ec-canvas>
+    </view>
+  </van-cell>
+</van-cell-group>

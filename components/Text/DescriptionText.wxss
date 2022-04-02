@@ -1,0 +1,11 @@
+/* components/Text/DescriptionText.wxss */
+.desc{
+  font-size: 2vh;
+  line-height: 4vh;
+  width: 80%;
+  margin-left: 10%;
+  color: #808080;
+  margin-top: 4vh;
+  margin-bottom: 4vh;
+  text-align: center;
+}

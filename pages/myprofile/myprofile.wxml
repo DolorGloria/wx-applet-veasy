@@ -1,0 +1,2 @@
+<!--pages/profile/myprofile.wxml-->
+<FullNavBar title="{{title}}"></FullNavBar>

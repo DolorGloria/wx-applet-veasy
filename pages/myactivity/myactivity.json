@@ -1,0 +1,5 @@
+{
+  "usingComponents": {
+    "FullNavBar": "/components/FullNavBar/FullNavBar"
+  }
+}

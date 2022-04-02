@@ -1,0 +1,4 @@
+<!--components/PlainNavBar/PlainNavBar.wxml-->
+<van-nav-bar
+  title="{{title}}"
+/>

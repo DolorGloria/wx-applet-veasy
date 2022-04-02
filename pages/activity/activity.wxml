@@ -1,0 +1,46 @@
+<!--pages/activity/activity.wxml-->
+<PlainNavBar title="活动"></PlainNavBar>
+<van-search 
+  value="{{ value }}" 
+  placeholder="请输入活动关键词" 
+  bind:search="onSearch"
+  bind:change="onChanges"
+  input-align="center">
+</van-search>
+<van-tabs active="{{ active }}" bind:change="onChange" color="#ff6e41">
+  <van-tab title="全部活动">
+    <van-card
+      currency=""
+      desc="描述信息"
+      title="商品标题"
+      thumb="https://img.yzcdn.cn/vant/ipad.jpeg"
+    >
+    <view slot="price">
+      余量 10
+    </view>
+      <view slot="footer">
+        <van-button round type="info" size="mini" color="#ff6e41" plain>圆形按钮</van-button>
+      </view>
+    </van-card>
+  </van-tab>
+  <van-tab title="未开始报名">内容 2</van-tab>
+  <van-tab title="已开始报名">内容 3</van-tab>
+  <van-tab title="报名结束">内容 3</van-tab>
+</van-tabs>
+
+<!-- <van-action-sheet show="false" title="标题">
+  <view>
+    <van-collapse accordion value="{{ activeName }}" bind:change="onChange">
+  <van-collapse-item title="有赞微商城" name="1">
+    提供多样店铺模板，快速搭建网上商城
+  </van-collapse-item>
+  <van-collapse-item title="有赞零售" name="2">
+    网店吸粉获客、会员分层营销、一机多种收款，告别经营低效和客户流失
+  </van-collapse-item>
+  <van-collapse-item title="有赞美业" name="3">
+    线上拓客，随时预约，贴心顺手的开单收银
+  </van-collapse-item>
+</van-collapse>
+  </view>
+</van-action-sheet>
+ -->

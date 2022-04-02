@@ -1,0 +1,28 @@
+<!--pages/profile/feedback.wxml-->
+<FullNavBar title="{{title}}"></FullNavBar>
+<DescriptionText title="{{description}}"></DescriptionText>
+
+<van-radio-group value="{{ radio }}" bind:change="onChange">
+  <van-cell-group>
+    <van-cell wx:for="{{radioList}}" clickable data-name="{{item.data}}" title="{{item.title}}" bind:click="onClick">
+      <van-radio slot="right-icon" name="{{item.data}}" checked-color="#ff6e41"/>
+    </van-cell>
+  </van-cell-group>
+</van-radio-group>
+<van-cell-group>
+  <van-field
+    v-model="message"
+    rows="4"
+    autosize
+    label="留言"
+    type="textarea"
+    maxlength="100"
+    placeholder="请输入留言"
+    show-word-limit
+  />
+</van-cell-group>
+
+<van-goods-action>
+  <van-goods-action-button color="#FF6e41" round block type="info" text="提交" />
+  <van-goods-action-button color="#FF6e41" round block  plain type="info" text="匿名提交" />
+</van-goods-action>

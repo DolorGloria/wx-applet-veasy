@@ -1,0 +1,7 @@
+<!--pages/profile/myactivity.wxml-->
+<FullNavBar title="{{title}}"></FullNavBar>
+<van-tabs active="{{ active }}" bind:change="onChange" color="#ff6e41">
+  <van-tab title="报名成功">内容 1</van-tab>
+  <van-tab title="报名中">内容 2</van-tab>
+  <van-tab title="报名失败">内容 3</van-tab>
+</van-tabs>

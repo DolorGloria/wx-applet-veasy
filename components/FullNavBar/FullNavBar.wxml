@@ -1,0 +1,9 @@
+<!--components/FullNavBar/FullNavBar.wxml-->
+<van-nav-bar
+  title="{{title}}"
+  bind:click-left="onClickReturn"
+>
+  <van-icon name="arrow-left" slot="left"  color="#ff6e41"/>
+</van-nav-bar>
+
+
